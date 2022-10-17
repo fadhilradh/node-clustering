@@ -1,0 +1,17 @@
+{
+  "name": "scaling",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "noCluster": "nodemon noCluster.js",
+    "withCluster": "nodemon withCluster.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "fadhil radhian",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "nodemon": "^2.0.20"
+  }
+}
